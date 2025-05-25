@@ -1,16 +1,33 @@
-# qr_event_app
+# QR Event App
 
-A new Flutter project.
+QR Event App is a mobile application built using **Flutter** that allows users to:
+- Create events with unique QR codes.
+- Manage events with customizable ticket styles.
+- Track the usage and sharing status of QR codes.
+- Scan and validate QR codes in real-time.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- **Event Management**: Create, edit, and delete events.
+- **QR Code Generation**: Generate unique QR codes per event.
+- **Customizable Tickets**: Choose between ticket styles: Classic, Centered, Minimal, Perforated.
+- **Individual Ticket Customization**: Adjust colors, labels, images for Perforated tickets.
+- **QR Code Validation**: Scan codes to validate their status (used/shared/expired).
+- **Offline Support**: Full functionality without internet connection.
+- **Hive Local Database**: Store events, QR codes, and customizations locally.
+- **PDF Export**: Export QR codes and tickets as PDFs for printing.
 
-A few resources to get you started if this is your first Flutter project:
+## 🧱 Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Technology      | Purpose                             |
+|-----------------|-------------------------------------|
+| **Flutter**     | Mobile app development framework    |
+| **Dart**        | Programming language for Flutter    |
+| **Hive**        | Local NoSQL storage for offline data|
+| **Provider**    | State management                   |
+| **uuid**        | Unique ID generation for QR codes   |
+| **qr_flutter**  | QR code generation                 |
+| **google_mlkit_barcode_scanning** | QR code scanning |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Project Structure
+
