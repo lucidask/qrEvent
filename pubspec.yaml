@@ -1,0 +1,48 @@
+name: qr_event_app
+description: "A QR event management app with scanning, generation, sharing, and printing functionality."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5
+  image_picker: ^1.1.2
+  image: 4.3.0
+  uuid: ^4.0.1
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^3.0.0
+  audioplayers: ^5.2.1
+  share_plus: ^7.2.1
+  printing: ^5.12.0
+  path_provider: ^2.1.2
+  pdf: ^3.10.7
+  screenshot: ^1.3.0
+  camera: ^0.10.5+5
+  google_mlkit_barcode_scanning: ^0.10.0
+  flutter_material_color_picker: ^1.0.0
+  flutter_colorpicker: ^1.0.3
+  file_picker: ^10.1.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.6
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/valid.mp3
+    - assets/sounds/expired.mp3
+    - assets/sounds/used.mp3
+    - assets/sounds/not_found.mp3
