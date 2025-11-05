@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # QR Event App
 
 QR Event App is a mobile application built using **Flutter** that allows users to:
@@ -30,4 +31,34 @@ QR Event App is a mobile application built using **Flutter** that allows users t
 | **google_mlkit_barcode_scanning** | QR code scanning |
 
 ## 📦 Project Structure
+=======
+# QR Event App 🎫
+
+QR Event App est une application mobile Flutter pour créer des événements, générer et gérer des QR codes pour chaque participant.  
+Elle permet également de personnaliser l'apparence des tickets QR (couleur, style, image, etc.) et de scanner/valider les QR codes.
+
+## 🚀 Fonctionnalités principales
+
+✅ Créer et gérer des événements  
+✅ Générer des QR codes uniques par événement  
+✅ Personnaliser l'apparence des tickets QR (Classic, Centered, Minimal, Perforated)  
+✅ Sauvegarde locale des données via Hive  
+✅ Scanner et vérifier la validité des QR codes  
+✅ Partager et imprimer les tickets sous forme d'image  
+✅ Gestion des statuts : QR utilisé, QR partagé, QR expiré
+
+## 🛠️ Stack Technologique
+
+| Technologie                  | Rôle                                                  |
+|-----------------------------|-------------------------------------------------------|
+| Flutter (Dart)              | Framework principal (Android/iOS)                     |
+| Hive                        | Base de données locale pour les événements/QR         |
+| Provider                    | Gestion d'état                                       |
+| uuid                        | Génération d'identifiants uniques                    |
+| google_mlkit_barcode_scanning | Scan des QR codes avec rectangle dynamique         |
+| qr_flutter                  | Génération des QR codes                               |
+| flutter_share, printing     | Partage/Impression des tickets QR                     |
+
+## 🏗️ Structure du projet
+>>>>>>> Stashed changes
 
